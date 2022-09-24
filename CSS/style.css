@@ -45,7 +45,7 @@ nav ul li a:hover {
 /* Banner princial */
 
 .banner-principal {
-    background-image: url(/Imagens/Background-desktop.png);
+    background-image: url(/IMAGENS/Background-desktop.png);
     width: 100%;
     height: 800px;
     position: relative;
@@ -94,7 +94,7 @@ nav ul li a:hover {
 .card-pai {
     width: 90%;
     height: auto; 
-    margin-left: 8%;
+    margin-left: 5%;
     /* display: flex;  */
 }
 
@@ -140,7 +140,7 @@ nav ul li a:hover {
     background-color: #33BB69;
     color: #F4F4F4;
     width: 90%;
-    height: 59px;
+    height: 29%;
     margin-left: 3%;
     cursor: pointer;
     border: none;
@@ -162,7 +162,7 @@ nav ul li a:hover {
 
 .todos-cards {
     display: flex;
-    gap: 30px;
+    gap: 24px;
     flex-wrap: wrap;
     margin-top: 20px;
 }
@@ -246,3 +246,5 @@ nav ul li a:hover {
     .cards {
        width: 100%;
     }
+
+}
