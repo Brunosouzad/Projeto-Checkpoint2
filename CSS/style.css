@@ -121,7 +121,7 @@ nav ul li a:hover {
 .card-body {
     position: absolute;
     background-color: #F4F4F4;
-    width: 412px;
+    width: 100%;
     margin-top: 230px;
     height: 282px;
     border-radius: 12px;
@@ -139,7 +139,7 @@ nav ul li a:hover {
     border-radius: 18px;
     background-color: #33BB69;
     color: #F4F4F4;
-    width: 342px;
+    width: 90%;
     height: 59px;
     margin-top: 60px;
     margin-left: 3%;
