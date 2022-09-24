@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./CSS/style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <title>DH Flix</title>
+  </head>
+  <body>
+    <!-- cabeçalho-navegação -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <img class="navbar-brand" src="./Imagens/image 1 (1).png" alt="Logo-digital-hause">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">itens</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" >Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Banner -->
+    <div class="banner-principal">
+      <div class="conteudo-banner">
+        <h1>DH Flix</h1>
+        <p>Confira a maior coletânea de filmes que a Digital House tem a te oferecer</p>
+        <button class="button-principal">Explorar</button>
+      </div>
+    </div>
+    <!-- cards-Principal -->
+   <section class="card-pai">
+    <h1>Itens</h1>
+    <div class="todos-cards">
+
+      <div class="cards" >
+        <img class="card-img-top" src="./Imagens/Rectangle 4.png" alt="Imagem do Filme do Coringa">
+        <div class="card-body">
+          <h5 class="card-title">Título</h5>
+          <p class="card-text">Descrição</p>
+          <button class="btn-card">
+          <a href="#"  >Abrir</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="cards" >
+          <img class="card-img-top" src="./Imagens/Rectangle 4 (1).png" alt="Imagem de capa do Filme After">
+          <div class="card-body">
+            <h5 class="card-title">Título</h5>
+            <p class="card-text">Descrição</p>
+            <button class="btn-card">
+            <a href="#"  >Abrir</a>
+            </button>
+          </div>
+    </div>
+
+    <div class="cards" >
+      <img class="card-img-top" src="./Imagens/Rectangle 4 (2).png" alt="Imagem de capa do Filme Captain Marvel">
+      <div class="card-body">
+        <h5 class="card-title">Título</h5>
+        <p class="card-text">Descrição</p>
+        <button type="button" class="btn-card">Abrir
+        <!-- <a href="#"  >Abrir</a> -->
+        </button>
+      </div>
+    </div>
+
+    <div class="cards" >
+      <img class="card-img-top" src="./Imagens/Rectangle 4 (3).png" alt="Imagem de capa do Filme Dora">
+      <div class="card-body">
+        <h5 class="card-title">Título</h5>
+        <p class="card-text">Descrição</p>
+        <button class="btn-card">
+        <a href="#"  >Abrir</a>
+        </button>
+      </div>
+    </div>
+  
+    <div class="cards" >
+      <img class="card-img-top" src="./Imagens/Rectangle 4 (4).png" alt="Imagem de capa do Filme 1917">
+      <div class="card-body">
+        <h5 class="card-title">Título</h5>
+        <p class="card-text">Descrição</p>
+        <button class="btn-card">
+        <a href="#">Abrir</a>
+        </button>
+      </div>
+    </div>
+
+    <div class="cards" >
+      <img class="card-img-top" src="./Imagens/Rectangle 4 (5).png" alt="Imagem de capa do Filme Thor">
+      <div class="card-body">
+        <h5 class="card-title">Título</h5>
+        <p class="card-text">Descrição</p>
+        <button class="btn-card">
+        <a href="#">Abrir</a>
+        </button>
+      </div>
+    </div>
+   </section>
+   <!-- Modal-Bootstrap -->
+   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <img class="img-modal" src="./Imagens/image 1 (2).png" alt="">
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="col-form-label">email:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="charset" class="col-form-label">senha:</label>
+              <input type="password" class="form-control" id="password">
+            </div>
+            <button type="button" class="btn-modal">Entrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <!-- Footer-rodapé -->
+   <footer class="content-footer">
+    <div class="conteudo-footer">
+      <h4>
+        Bruno dos Santos Souza
+      </h4>
+      <p>
+        Responsável pelo desenvolvimento do Projeto DH-Flix
+      </p>
+    </div>
+    <div class="icons">
+      <i> <a href="https://github.com/Brunosouzad"> <img src="./icons/image 4.png" alt="icone-linkdin"> </a> </i>
+      <i> <a href="https://www.linkedin.com/in/brunosouzad/"><img src="./icons/image 5.png" alt="icone-github"> </a> </i>
+    </div>
+    <div class="direitos-autorais">
+      <p>Checkpoint 3 desenvolvido em 2022</p>
+    </div>
+   </footer>
+  </body>
+</html>
