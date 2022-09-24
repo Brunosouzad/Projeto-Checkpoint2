@@ -78,7 +78,7 @@ nav ul li a:hover {
     position: absolute;
     font-size: 24px;
     color: white;
-    width: 322px;
+    width: 30vh;
     height: 71px;
     margin-top: 30px;
     cursor: pointer;
@@ -122,8 +122,8 @@ nav ul li a:hover {
     position: absolute;
     background-color: #F4F4F4;
     width: 100%;
-    margin-top: 230px;
-    height: 282px;
+    margin-top: 56.5%;
+    height: 55%;
     border-radius: 12px;
     
 }
@@ -141,7 +141,6 @@ nav ul li a:hover {
     color: #F4F4F4;
     width: 90%;
     height: 59px;
-    margin-top: 60px;
     margin-left: 3%;
     cursor: pointer;
     border: none;
@@ -182,7 +181,7 @@ nav ul li a:hover {
 .btn-modal{
     border-radius: 12px;
     background-color: #33BB69;
-    width: 442px;
+    width: 96%;
     height: 59px;
     margin-top: 40px;
     margin-left: 2%;
@@ -195,7 +194,7 @@ nav ul li a:hover {
 .content-footer {
     background-color: #171717;
     width: 100%;
-    height: 364px;
+    height: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -233,5 +232,17 @@ nav ul li a:hover {
         display: flex;
         flex-direction: row-reverse;
     }
-    
+
 }
+
+@media (max-width: 450px) {
+    
+    .todos-cards {
+        flex-direction: column;
+        align-items: center;
+        margin: 2%;
+    }
+
+    .cards {
+       width: 100%;
+    }
