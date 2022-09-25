@@ -7,9 +7,10 @@
     box-sizing: border-box;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
-/* Estilização do menu navegação */
+/* Estilização NAV */
 .content-pai {
     display: flex;
     align-items: flex-start;
@@ -89,12 +90,12 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
-/* Listagem de itens */
+/* CARDS */
 
 .card-pai {
     width: 90%;
     height: auto; 
-    margin-left: 5%;
+    margin-left: 9%;
     
 }
 
@@ -107,6 +108,7 @@ nav ul li a:hover {
     width: 407px;
     border-radius: 12px;
     display: flex;
+    justify-items: center;
     position: relative;
 
 }
@@ -162,7 +164,7 @@ nav ul li a:hover {
 
 .todos-cards {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
     margin-top: 20px;
 }
@@ -173,6 +175,7 @@ nav ul li a:hover {
 
 }
 
+/* modal */
 .img-modal {
     max-width: 300px;
     margin-left: 20%;
@@ -190,7 +193,7 @@ nav ul li a:hover {
     color: #F4F4F4;
 
 }
-
+/* footer */
 .content-footer {
     background-color: #171717;
     width: 100%;
@@ -226,11 +229,24 @@ nav ul li a:hover {
     display: flex;
     gap: 20px;
 }
-
+/* responsivo */
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
         display: flex;
         flex-direction: row-reverse;
     }
 
+}
+
+@media (max-width: 420px) {
+    .conteudo-banner {
+        top: 20%;
+    }
+
+    .banner-principal {
+        background-image: url(../IMAGENS/Background-mobile.png); 
+    }
+    .card-pai {
+        margin-left: 5%;
+    }
 }

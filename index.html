@@ -23,10 +23,10 @@
                 <a href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a href="#">itens</a>
+                <a href="#item">itens</a>
               </li>
               <li class="nav-item">
-                <a href="#">sobre nós</a>
+                <a href="#sobre-nos">sobre nós</a>
               </li>
               <li class="nav-item">
                 <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" >Login</a>
@@ -45,14 +45,16 @@
       </div>
     </div>
     <!-- cards-Principal -->
-   <section class="card-pai">
+   <section id="item" class="card-pai">
     <div class="text-card-principal">
     <h1>Itens</h1>
     </div>
     <div class="todos-cards">
 
       <div class="cards" >
-        <img class="card-img-top" src="./IMAGENS/Rectangle 4.png" alt="Imagem do Filme do Coringa">
+        <picture>
+          <img class="card-img-top" src="./IMAGENS/Rectangle 4.png" alt="Imagem do Filme do Coringa">
+        </picture>
         <div class="card-body">
           <h5 class="card-title">Título</h5>
           <p class="card-text">Descrição</p>
@@ -63,7 +65,9 @@
       </div>
 
       <div class="cards" >
+        <picture>
           <img class="card-img-top" src="./IMAGENS/Rectangle 4 (1).png" alt="Imagem de capa do Filme After">
+        </picture>
           <div class="card-body">
             <h5 class="card-title">Título</h5>
             <p class="card-text">Descrição</p>
@@ -74,18 +78,20 @@
     </div>
 
     <div class="cards" >
-      <img class="card-img-top" src="./IMAGENS/Rectangle 4 (2).png" alt="Imagem de capa do Filme Captain Marvel">
+      <picture>
+        <img class="card-img-top" src="./IMAGENS/Rectangle 4 (2).png" alt="Imagem de capa do Filme Captain Marvel">
+      </picture>
       <div class="card-body">
         <h5 class="card-title">Título</h5>
         <p class="card-text">Descrição</p>
-        <button type="button" class="btn-card">Abrir
-        <!-- <a href="#"  >Abrir</a> -->
-        </button>
+        <button type="button" class="btn-card">Abrir</button>
       </div>
     </div>
 
     <div class="cards" >
-      <img class="card-img-top" src="./IMAGENS/Rectangle 4 (3).png" alt="Imagem de capa do Filme Dora">
+      <picture>
+        <img class="card-img-top" src="./IMAGENS/Rectangle 4 (3).png" alt="Imagem de capa do Filme Dora">
+      </picture>
       <div class="card-body">
         <h5 class="card-title">Título</h5>
         <p class="card-text">Descrição</p>
@@ -96,7 +102,9 @@
     </div>
   
     <div class="cards" >
-      <img class="card-img-top" src="./IMAGENS/Rectangle 4 (4).png" alt="Imagem de capa do Filme 1917">
+      <picture>
+        <img class="card-img-top" src="./IMAGENS/Rectangle 4 (4).png" alt="Imagem de capa do Filme 1917">
+      </picture>
       <div class="card-body">
         <h5 class="card-title">Título</h5>
         <p class="card-text">Descrição</p>
@@ -107,7 +115,9 @@
     </div>
 
     <div class="cards" >
-      <img class="card-img-top" src="./IMAGENS/Rectangle 4 (5).png" alt="Imagem de capa do Filme Thor">
+      <picture>
+        <img class="card-img-top" src="./IMAGENS/Rectangle 4 (5).png" alt="Imagem de capa do Filme Thor">
+      </picture>
       <div class="card-body">
         <h5 class="card-title">Título</h5>
         <p class="card-text">Descrição</p>
@@ -125,11 +135,11 @@
         <div class="modal-body">
           <form>
             <div class="mb-3">
-              <label for="email" class="col-form-label">email:</label>
+              <label for="email" class="col-form-label">Email</label>
               <input type="email" class="form-control" id="email">
             </div>
             <div class="mb-3">
-              <label for="charset" class="col-form-label">senha</label>
+              <label for="charset" class="col-form-label">Senha</label>
               <input type="password" class="form-control" id="password">
             </div>
             <button type="button" class="btn-modal">Entrar</button>
@@ -138,9 +148,9 @@
       </div>
     </div>
   </div>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
    <!-- Footer-rodapé -->
-   <footer class="content-footer">
+   <footer id="sobre-nos" class="content-footer">
     <div class="conteudo-footer">
       <h4>
         Bruno dos Santos Souza
@@ -150,12 +160,13 @@
       </p>
     </div>
     <div class="icons">
-      <i> <a href="https://github.com/Brunosouzad"> <img src="./ICONS/image 4.png" alt="icone-linkdin"> </a> </i>
-      <i> <a href="https://www.linkedin.com/in/brunosouzad/"><img src="./ICONS/image 5.png" alt="icone-github"> </a> </i>
+      <i> <a href="https://www.linkedin.com/in/brunosouzad/"> <img src="./ICONS/image 4.png" alt="icone-linkdin"> </a> </i>
+      <i> <a href="https://github.com/Brunosouzad"><img src="./ICONS/image 5.png" alt="icone-github"> </a> </i>
     </div>
     <div class="direitos-autorais">
-      <p>Checkpoint 3 desenvolvido em 2022</p>
+      <p>Checkpoint 2 desenvolvido em 2022</p>
     </div>
    </footer> 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
