@@ -45,7 +45,7 @@ nav ul li a:hover {
 /* Banner princial */
 
 .banner-principal {
-    background-image: url(/IMAGENS/Background-desktop.png);
+    background-image: url(../IMAGENS/Background-desktop.png);
     width: 100%;
     height: 800px;
     position: relative;
@@ -95,7 +95,7 @@ nav ul li a:hover {
     width: 90%;
     height: auto; 
     margin-left: 5%;
-    /* display: flex;  */
+    
 }
 
 .texto-h1 {
@@ -124,7 +124,7 @@ nav ul li a:hover {
     width: 100%;
     margin-top: 56.5%;
     height: 55%;
-    border-radius: 12px;
+    border-radius: 9px;
     
 }
 
@@ -162,7 +162,7 @@ nav ul li a:hover {
 
 .todos-cards {
     display: flex;
-    gap: 24px;
+    gap: 30px;
     flex-wrap: wrap;
     margin-top: 20px;
 }
@@ -231,20 +231,6 @@ nav ul li a:hover {
     .navbar-expand-lg .navbar-collapse {
         display: flex;
         flex-direction: row-reverse;
-    }
-
-}
-
-@media (max-width: 450px) {
-    
-    .todos-cards {
-        flex-direction: column;
-        align-items: center;
-        margin: 2%;
-    }
-
-    .cards {
-       width: 100%;
     }
 
 }
